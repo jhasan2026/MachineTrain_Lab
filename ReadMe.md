@@ -3,14 +3,14 @@
 
 1. **Data Structure**
    1. Numpy 
-      - Basic [==>]()
-      - Advance [==>]()
+      - Basic [==>](1_Data_Structure/1_Numpy/1_Numpy_Basis.ipynb)
+      - Advance [==>](1_Data_Structure/1_Numpy/2_Numpy_Adv.ipynb)
    2. Pandas 
-      1. Series [==>]()
-      2. Dataframe [==>]()
+      1. Series [==>](1_Data_Structure/2_Pandas/1_Series_Pandas.ipynb)
+      2. Dataframe [==>](1_Data_Structure/2_Pandas/2_Dataframe_Pandas.ipynb)
 
 2. **Data Visualization**
-   1. Matplotlib [==>]()
+   1. Matplotlib [==>](2_Data_Visualization/1_Matplotlib/Matplotlib.ipynb)
       1. Uni variate analysis
          1. Histogram 
       2. Uni variate and Bivariate Analysis
@@ -26,7 +26,7 @@
          8. Bar Chart
       4. Sub Plot
       
-   2. seaborn [==>]()
+   2. seaborn [==>](2_Data_Visualization/2_Seaborn/Seaborn.ipynb)
       1. Relation Plot
          1. Scatter Plot
          2. Facet Plot
