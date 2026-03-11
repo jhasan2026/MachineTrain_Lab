@@ -63,44 +63,34 @@
 
 3. **Data Gathering** 
 
-   1. CSV data [==>]()
+   1. CSV data [==>](3_Data_Gathering/1_CSV_data.ipynb)
    2. JSON data [==>]()
    3. API data  [==>]() 
    4. Web scraping [==>]() 
 
 4. **Data Analysis** 
 
-   1. **Understanding data** [==>]()
+   1. **Understanding data** [==>](4_Data_Analysis/1_Understanding_Data/1_Understanding_Data.ipynb)
    2. **EDA** 
-      1. Univariate [==>]() 
-      2. Multivariate [==>]()
+      1. Univariate [==>](4_Data_Analysis/2_EDA/1_Univariate_analysis.ipynb) 
+      2. Multivariate [==>](4_Data_Analysis/2_EDA/2_Multi_Variate_analysis.ipynb)
 
 5. **Features Engineering**
     1. **Feature transformation**
-          1. Standardization  [==>]()
-          2. Normalization [==>]()
+          1. Standardization  [==>](5_Feature_Engineering/1_Feature_Transformation/1_Standardization.ipynb)
+          2. Normalization [==>](5_Feature_Engineering/1_Feature_Transformation/2_Normalization.ipynb)
     2. **Handling categorical features** 
-       1. Ordinal encoding [==>]()
-       2. One Hot encoding [==>]()
+       1. Ordinal encoding [==>](5_Feature_Engineering/2_Handling_Categorical_Features/1_Ordinal_Encoding.ipynb)
+       2. One Hot encoding [==>](5_Feature_Engineering/2_Handling_Categorical_Features/2_One_Hot_Encoding.ipynb)
     3. **Pipelines** 
-       1. Column transformer 
-          - Without Column transformer  [==>]()
-          - Using Column transformer  [==>]()
-       2. Pipelines 
-          - Without Pipeline [==>]()
-          - Using Pipeline [==>]()
+       Column transformer [==>](5_Feature_Engineering/3_Pipelines/1_Column_transformer.ipynb)
+
     4. **Transformer**
        1. Functional transformer 
           - Without Functional transformer  [==>]()
           - Using Functional transformer  [==>]()
-       2. Power transformer 
-          - Without Power transformer [==>]()
-          - Using Power transformer [==>]()
-    5. **Handling Numerical features** 
-       1. Binning 
-          - Without Binning [==>]()
-          - Using Binning [==>]()
-       2. Binarization [==>]()
+       2. Power transformer [==>]()
+    5. **Numerical to Categorical features**  Binning [==>]()
     6. **Handling mixed value** [==>]()
     7. **Missing data** 
        1. Univariate 
