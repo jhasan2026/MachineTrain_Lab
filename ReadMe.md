@@ -95,26 +95,24 @@
     7. **Missing data** 
        1. Univariate 
           1. Numerical 
-             1. Mean-Median Imputation [==>]()
-             2. Arbitrary Imputation [==>]()
-             3. 1. Random Select Imputation [==>]()
+             1. Mean-Median Imputation [==>](5_Feature_Engineering/7_Missing_Data/1_Univeriate/1_Numerical/1_Mean_Median_Imputation.ipynb)
+             2. Arbitrary Imputation [==>](5_Feature_Engineering/7_Missing_Data/1_Univeriate/1_Numerical/2_Arbitary_Imputation.ipynb)
+             3. Random Select Imputation [==>](5_Feature_Engineering/7_Missing_Data/1_Univeriate/1_Numerical/3_Numerical_Random_Select.ipynb)
           2. Categorical
-             1. Frequent Value Imputation [==>]()
-             2. Missing column [==>]()
-             3. Random Select Imputation [==>]()
+             1. Frequent Value Imputation [==>](5_Feature_Engineering/7_Missing_Data/1_Univeriate/2_Categorical/1_Frequent_Value_Imputation.ipynb)
+             2. Random Select Imputation [==>](5_Feature_Engineering/7_Missing_Data/1_Univeriate/2_Categorical/2_Random_select_Impute.ipynb)
        2. Multivariate 
-          1. KNN multivariate impute [==>]()
+          1. KNN multivariate impute (only numerical) [==>](5_Feature_Engineering/7_Missing_Data/2_Multivariate/1_KKN_Imputation.ipynb)
           2. Iterative impute [==>]()
     8. **Outlier data** 
        1. Z-Score Filtering 
-          - Using Mean Standardization [==>]()
-          - Using Z-Scoring [==>]()
-       2. IQR Filtering [==>]()
-       3. Percentile Filtering [==>]()
+          - Using Mean Standardization [==>](5_Feature_Engineering/8_Outlier_Data/1_Z_Score_Filtering/1_Using_Mean_standarization.ipynb)
+          - Using Z-Scoring [==>](5_Feature_Engineering/8_Outlier_Data/1_Z_Score_Filtering/2_Using_Zscore.ipynb)
+       2. IQR Filtering [==>](5_Feature_Engineering/8_Outlier_Data/2_IQR_Filtering/1_IQR_Filtering.ipynb)
+       3. Percentile Filtering [==>](5_Feature_Engineering/8_Outlier_Data/3_Percentile_Filtering/1_Percentile_Filtering.ipynb)
     9. **Feature construction and splitting** [==>]()
     10. **Handling date time** [==>]()
     11. **Complete case analysis** [==>]()
-    
     12. **Features Importance**
          - Feature importance using random forrest [==>]()
 
@@ -122,11 +120,11 @@
    1. Supervised
         1. **Gradient Descent** 
            1. Gradient Descent for Single Column
-              - BuildIn [==>]()
-              - own-class [==>]()
+              - BuildIn [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/1_For_Single_Feature/1_Single_col_gradient_descent.ipynb)
+              - Own-class [==>]()
            2. Batch Gradient Descent
               - BuildIn [==>]()
-              - Own-class [==>]()
+              - own-class [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/1_For_Single_Feature/2_OwnClass_for_Gradient_Descent.ipynb)
            3. Stochastic Gradient Descent 
               - BuildIn [==>]()
               - Own-class [==>]()
@@ -167,36 +165,36 @@
            - Classification [==>]()
         7. **Supportive Vector Machine (SVM)**
            - Classification [==>]()
-      8. Ensemble Learning
-         1.  **Voting** 
-             1. Voting classifier [==>]()
-             2. Voting regressor  [==>]()
-         2. **Bagging**
-            1. Different Algorithm Bagging 
-               1. Bootstrapping in Bagging
-                  1. With replacement Bootstrapping [==>]() 
-                  2. Pasting Bootstrapping  [==>]()
-                  3. Random subspace Bootstrapping [==>]()
-                  4. Random patch Bootstrapping  -
-               2. Bagging Classification [==>]()
-               3. Bagging Regression [==>]()
-            2. Random Forrest 
-               1. Bootstrapping in Random forrest  [==>]()
-               2. Random forrest Algorithm  
-                  - Plotting random forrest [==>]()
-                  - Search CV in random forrest [==>]()
-         3. **Boosting**
-            1. Adaboost 
-               1. Adaboost Implementation [==>]()
-               2. Adaboost hyperparameter tuning [==>]()
-            2. Gradient Boosting 
-               1. Gradient Boosting [==>]()
-               2. Additive modelling Regression [==>]()
-               3. Additive modelling Classification [==>]()
+        8. **Ensemble Learning**
+              1.  **Voting** 
+                  1. Voting classifier [==>]()
+                  2. Voting regressor  [==>]()
+              2. **Bagging**
+                 1. Different Algorithm Bagging 
+                    1. Bootstrapping in Bagging
+                       1. With replacement Bootstrapping [==>]() 
+                       2. Pasting Bootstrapping  [==>]()
+                       3. Random subspace Bootstrapping [==>]()
+                       4. Random patch Bootstrapping  -
+                    2. Bagging Classification [==>]()
+                    3. Bagging Regression [==>]()
+                 2. Random Forrest 
+                    1. Bootstrapping in Random forrest  [==>]()
+                    2. Random forrest Algorithm  
+                       - Plotting random forrest [==>]()
+                       - Search CV in random forrest [==>]()
+              3. **Boosting**
+                 1. Adaboost 
+                    1. Adaboost Implementation [==>]()
+                    2. Adaboost hyperparameter tuning [==>]()
+                 2. Gradient Boosting 
+                    1. Gradient Boosting [==>]()
+                    2. Additive modelling Regression [==>]()
+                    3. Additive modelling Classification [==>]()
             
-            3. XG Boosting [==>]()
-         4. **Stacking**
-            1. Blending Stacking [==>]()
+                 3. XG Boosting [==>]()
+              4. **Stacking**
+                 1. Blending Stacking [==>]()
    2. Unsupervised
       1. **K Means Clustering** [==>]() 
       2. **Hierarchical Clustering**  [==>]()
