@@ -121,38 +121,38 @@
         1. **Gradient Descent** 
            1. Gradient Descent for Single Column
               - BuildIn [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/1_For_Single_Feature/1_Single_col_gradient_descent.ipynb)
-              - Own-class [==>]()
+              - Own-class [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/1_For_Single_Feature/2_OwnClass_for_Gradient_Descent.ipynb)
            2. Batch Gradient Descent
-              - BuildIn [==>]()
+              - BuildIn [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/2_Multiple_Features/1_Gradient_Descent.ipynb)
               - own-class [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/1_For_Single_Feature/2_OwnClass_for_Gradient_Descent.ipynb)
            3. Stochastic Gradient Descent 
-              - BuildIn [==>]()
-              - Own-class [==>]()
+              - BuildIn [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/3_Stochastic_Gradeint_Descent/1_BuildIn_Stochastic_Gradient_Descent.ipynb)
+              - Own-class [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/3_Stochastic_Gradeint_Descent/2_Ownclass_Stochastic_Gradient_Descent.ipynb)
            4. Mini-Batch Gradient Descent
-              - BuildIn [==>]()
-              - Own-class [==>]()
+              - BuildIn [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/4_Mini_Batch_Gradeint_Descent/1_BuildIn_Mini_Batch_Gradient_Descent.ipynb)
+              - Own-class [==>](6_Model/1_Supervised_Learning/1_Gradient_Decend/4_Mini_Batch_Gradeint_Descent/2_Ownclass_Mini_Batch_Gradient_Descent.ipynb)
         2. **Linear Regression**  
            1. One Dimensional Linear Regression 
-               - BuildIn [==>]()
-               - Own-class [==>]()
+               - BuildIn [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/1_One_Dimentional_Linear_Regression/1_BuildIn_One_Dimentional_Linear_Regression.ipynb)
+               - Own-class [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/1_One_Dimentional_Linear_Regression/2_Ownclass_One_Dimentional_Linear_Regression.ipynb)
            2. Multi Dimensional Linear Regression 
-               - BuildIn [==>]()
-               - Own-class [==>]()
+               - BuildIn [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/2_Linear_Regression_Multi_Dimentional/1_BuildIn_Linear_Regression_Multi_Dimentional.ipynb)
+               - Own-class [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/2_Linear_Regression_Multi_Dimentional/2_Ownclass_Linear_Regression_Multi_Dimentional.ipynb)
            3. Polynomial Regression 
-              - BuildIn [==>]()
-              - Own-class [==>]()
+              - BuildIn [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/3_Polynomial_Regression/1_BuildIn_Polynomial_Regression.ipynb)
+              - Custom-class [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/3_Polynomial_Regression/2_Customization_Polynomial_Regression.ipynb)
            4. Ridge Regression 
-              - BuildIn [==>]()
-              - Own-class (One Dimension) [==>]()
-              - Own-class (Multidimensional) [==>]()
-           5. Lasso Regression [==>]()
+              - BuildIn [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/4_Ridge_Regression/1_BuildIn_Ridge_Regression.ipynb)
+              - Own-class (One Dimension) [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/4_Ridge_Regression/2_Ownclass_oneDim_Ridge_regression.ipynb)
+              - Own-class (Multidimensional) [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/4_Ridge_Regression/3_Ownclass_multiDim_Ridge_regression.ipynb)
+           5. Lasso Regression [==>](6_Model/1_Supervised_Learning/2_Linear_Regression/5_Lasso_Regression/1_Lasso_Regression.ipynb)
         3. **Logistic Regression**
-           1. Perception Trick 
-              - Using Step Function [==>]()
-              - Using Sigmoid Function [==>]()  
+           1. Perception Trick [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/1_Perception_Trick/Perception_Trick.ipynb)
            2. Logistic regression using Gradient Descent
-               1. Binary Class Classification [==>]()
-               2. Accuracy score (Metrics) 
+               1. Binary Class Classification 
+                  1. BuildIn [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/2_Using_Gradient_Descent/1_Binary_Class_Classification/1_BuildIn_Binary_Class_Classification.ipynb)
+                  2. Own-class [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/2_Using_Gradient_Descent/1_Binary_Class_Classification/2_Ownclass_Binary_Class_Classification.ipynb)
+               2. Accuracy Metrics 
                   - Binary class [==>]()
                   - Multi class [==>]()
                3. Multinomial(multiclass) Classification (softmax) [==>]()
