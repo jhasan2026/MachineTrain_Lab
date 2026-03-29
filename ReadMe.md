@@ -152,37 +152,43 @@
                1. Binary Class Classification 
                   1. BuildIn [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/2_Using_Gradient_Descent/1_Binary_Class_Classification/1_BuildIn_Binary_Class_Classification.ipynb)
                   2. Own-class [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/2_Using_Gradient_Descent/1_Binary_Class_Classification/2_Ownclass_Binary_Class_Classification.ipynb)
-               2. Accuracy Metrics 
-                  - Binary class [==>]()
-                  - Multi class [==>]()
-               3. Multinomial(multiclass) Classification (softmax) [==>]()
-               4. Polynomial or Non-linear Logistic Regression  [==>]()
+               2. Multiclass Classification (softmax) [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/2_Using_Gradient_Descent/2_Multi_Class_Classification/Multi_Class_Classification.ipynb)
+               3. Polynomial or Non-linear Logistic Regression  [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/2_Using_Gradient_Descent/3_Polynomial_Classifier/1_Polynomial_Classification.ipynb)
+           3. Accuracy Metrics 
+              - Binary class [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/3_Accuracy_Metrices/1_Binary_Class_Classification.ipynb)
+              - Multi class [==>](6_Model/1_Supervised_Learning/3_Logistic_Regression/3_Accuracy_Metrices/2_Multi_Class_Classification.ipynb) 
         4. **Decision Tree** 
-           1. Classification [==>]()
-           2. Regression [==>]()
+           1. Classification Decision Tree
+              1. Decision Tree Classifier [==>](6_Model/1_Supervised_Learning/4_Decision_Tree/1_Decision_Tree_Classifier/1_Decision_Tree_Classifier.ipynb)
+              2. Decision Tree Classifier Hyperparameter Tuning [==>](6_Model/1_Supervised_Learning/4_Decision_Tree/1_Decision_Tree_Classifier/2_Decision_Tree_Classifier_Hyperparameter_Tuning.ipynb)
+           2. Regression Decision Tree
+              1. Decision Tree Regressor [==>](6_Model/1_Supervised_Learning/4_Decision_Tree/2_Decision_Tree_Regression/1_Decision_Tree_Regressor.ipynb)
+              2. Decision Tree Regressor Hyperparameter Tuning [==>](6_Model/1_Supervised_Learning/4_Decision_Tree/2_Decision_Tree_Regression/2_Decision_Tree_Regression_Hyperparameter_Tuning.ipynb)
         5. **Naive Bayes** [==>]()
         6. **K-Nearest Neighbours (KNN)** 
-           - Classification [==>]()
+           - Classification [==>](6_Model/1_Supervised_Learning/6_K_Nearest_Neighbours/1_KNN_Classification.ipynb)
         7. **Supportive Vector Machine (SVM)**
-           - Classification [==>]()
+           - Classification [==>](6_Model/1_Supervised_Learning/7_Supportive_Vector_Machine/1_SVM_Classification.ipynb)
         8. **Ensemble Learning**
               1.  **Voting** 
-                  1. Voting classifier [==>]()
-                  2. Voting regressor  [==>]()
+                  1. Voting classifier 
+                     1. Binary Classification[==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/1_Voting/1_Classification_Voting/1_Voting_Binary_Classifier.ipynb)
+                     1. Multi Class Classification[==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/1_Voting/1_Classification_Voting/2_Voting_Multi_Classifier.ipynb)
+                  2. Voting regressor  [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/1_Voting/2_Regression_Voting/1_Voting_Binary_Regressor.ipynb)
               2. **Bagging**
-                 1. Different Algorithm Bagging 
-                    1. Bootstrapping in Bagging
-                       1. With replacement Bootstrapping [==>]() 
-                       2. Pasting Bootstrapping  [==>]()
-                       3. Random subspace Bootstrapping [==>]()
-                       4. Random patch Bootstrapping  -
-                    2. Bagging Classification [==>]()
-                    3. Bagging Regression [==>]()
-                 2. Random Forrest 
-                    1. Bootstrapping in Random forrest  [==>]()
-                    2. Random forrest Algorithm  
-                       - Plotting random forrest [==>]()
-                       - Search CV in random forrest [==>]()
+                 1. Different Algorithm Bagging
+                    1. Bagging Classification [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/1_Bagging_Algorithms/1_Bagging_Classification/1_Bagging_Classifier.ipynb)
+                    2. Bagging Regression [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/1_Bagging_Algorithms/2_Bagging_Regression/1_Bagging_Regressor.ipynb)
+                 2. Bootstrapping in Bagging
+                       1. With replacement Bootstrapping (Row sampling With replacement ) [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/2_Different_Bootstraping_In_Bagging/1_With_replacement.ipynb) 
+                       2. Pasting Bootstrapping (Row sampling Without replacemnet)  [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/2_Different_Bootstraping_In_Bagging/2_Pasting.ipynb)
+                       3. Random subspace Bootstrapping (col sampling + no row sampling) [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/2_Different_Bootstraping_In_Bagging/3_Random_Subspace.ipynb)
+                       4. Random patch Bootstrapping  (col sampling + row sampling can (replacement / not)) [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/2_Different_Bootstraping_In_Bagging/4_Random_Patch.ipynb)
+                 3. Random Forrest
+                    1. Random forrest Algorithm  
+                       1. Classification using Random Forest [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/3_Random_Forrest/1_Random_Forrest_Algorithm/1_Random_Forrest_Classification.ipynb)
+                       2. Regressor using Random Forest [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/3_Random_Forrest/1_Random_Forrest_Algorithm/2_Random_Forrest_Regression.ipynb)
+                    2. Bootstrapping in Random forrest  [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/3_Random_Forrest/2_Different_Bootstraping_In_Random_Forest/1_Different_Bootstraping_In_Random_Forest.ipynb)
               3. **Boosting**
                  1. Adaboost 
                     1. Adaboost Implementation [==>]()
