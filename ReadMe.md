@@ -191,17 +191,22 @@
                     2. Bootstrapping in Random forrest  [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/2_Bagging/3_Random_Forrest/2_Different_Bootstraping_In_Random_Forest/1_Different_Bootstraping_In_Random_Forest.ipynb)
               3. **Boosting**
                  1. Adaboost 
-                    1. Adaboost Implementation [==>]()
-                    2. Adaboost hyperparameter tuning [==>]()
+                    1. Adaboost Classification 
+                       1. Adaboost Classifier  [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/3_Boosting/1_Adaboost/1_Adaboot_Classification/1_Adaboost_Classifier.ipynb)
+                       2. Adaboost Step by Step  [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/3_Boosting/1_Adaboost/1_Adaboot_Classification/2_Algorithm_Clarrification.ipynb)
+                    2. Adaboost Regression [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/3_Boosting/1_Adaboost/2_Adaboot_Regressor/1_Adaboost_Regressor.ipynb)
                  2. Gradient Boosting 
-                    1. Gradient Boosting [==>]()
-                    2. Additive modelling Regression [==>]()
-                    3. Additive modelling Classification [==>]()
+                    1. Gradient Regression 
+                       1. Gradient Boosting Regression  [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/3_Boosting/2_Gradient_Boosting/1_Regression_Gradeint_Boosting/1_Regression_Gradeint_Boosting.ipynb)
+                       2. Gradient Step by Step Additive Modeling  [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/3_Boosting/2_Gradient_Boosting/1_Regression_Gradeint_Boosting/2_Additive_Modeling_Regression.ipynb)
+                    2. Gradient Boosting Classification [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/3_Boosting/2_Gradient_Boosting/2_Classification_Gradient_Booting/1_Classification_Gradient_Booting.ipynb)
             
-                 3. XG Boosting [==>]()
+                 3. XG Boosting 
+                    1. XG Boosting Regression [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/3_Boosting/3_XG_Boosting/1_Regression_XG_Boosting/1_Regression_XG_Boosting.ipynb)
+                    2. XG Boosting Classification [==>](6_Model/1_Supervised_Learning/8_Ensemble_Learning/3_Boosting/3_XG_Boosting/2_Classification_Gradient_Booting/1_Classification_XG_Booting.ipynb)
               4. **Stacking**
                  1. Blending Stacking [==>]()
    2. Unsupervised
-      1. **K Means Clustering** [==>]() 
+      1. **K Means Clustering** [==>](6_Model/2_Unsupervised_Learning/1_K_Nearest_Neighbour_KNN/1_KNN_Classifier.ipynb) 
       2. **Hierarchical Clustering**  [==>]()
       3. Dimensionality Reduction (PCA) [==>]() 
