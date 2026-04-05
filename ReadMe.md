@@ -59,7 +59,7 @@
          1. facetplot
          2. jointplot
          3. pairplot
-   3. Plotly  [==>]()
+   3. Plotly  [==>]() -
 
 3. **Data Gathering** 
 
@@ -84,14 +84,9 @@
        2. One Hot encoding [==>](5_Feature_Engineering/2_Handling_Categorical_Features/2_One_Hot_Encoding.ipynb)
     3. **Pipelines** 
        Column transformer [==>](5_Feature_Engineering/3_Pipelines/1_Column_transformer.ipynb)
-
-    4. **Transformer**
-       1. Functional transformer 
-          - Without Functional transformer  [==>]()
-          - Using Functional transformer  [==>]()
-       2. Power transformer [==>]()
-    5. **Numerical to Categorical features**  Binning [==>]()
-    6. **Handling mixed value** [==>]()
+    4. **Power transformer** [==>](5_Feature_Engineering/4_Power_Transformer/1_Power_Transformer.ipynb)
+    5. **Numerical to Categorical features**  Binning [==>](5_Feature_Engineering/5_Numerical_To_Categorical/1_Binning.ipynb)
+    6. **Handling mixed value** [==>](5_Feature_Engineering/6_Handling_Mixed_value/Mixed_value_handling.ipynb)
     7. **Missing data** 
        1. Univariate 
           1. Numerical 
@@ -103,7 +98,7 @@
              2. Random Select Imputation [==>](5_Feature_Engineering/7_Missing_Data/1_Univeriate/2_Categorical/2_Random_select_Impute.ipynb)
        2. Multivariate 
           1. KNN multivariate impute (only numerical) [==>](5_Feature_Engineering/7_Missing_Data/2_Multivariate/1_KKN_Imputation.ipynb)
-          2. Iterative impute [==>]()
+          2. Iterative impute [==>]() -
     8. **Outlier data** 
        1. Z-Score Filtering 
           - Using Mean Standardization [==>](5_Feature_Engineering/8_Outlier_Data/1_Z_Score_Filtering/1_Using_Mean_standarization.ipynb)
@@ -111,10 +106,10 @@
        2. IQR Filtering [==>](5_Feature_Engineering/8_Outlier_Data/2_IQR_Filtering/1_IQR_Filtering.ipynb)
        3. Percentile Filtering [==>](5_Feature_Engineering/8_Outlier_Data/3_Percentile_Filtering/1_Percentile_Filtering.ipynb)
     9. **Feature construction and splitting** [==>]()
-    10. **Handling date time** [==>]()
-    11. **Complete case analysis** [==>]()
+    10. **Handling date time** [==>]() - 
+    11. **Complete case analysis** [==>]() - 
     12. **Features Importance**
-         - Feature importance using random forrest [==>]()
+         - Feature importance using random forrest [==>]() -
 
 6. **Model**
    1. Supervised
